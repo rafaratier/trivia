@@ -6,8 +6,8 @@ import App from './App';
 import store from './redux/store/store';
 
 ReactDOM.render(
-  <BrowserRouter>
-    <Provider store={ store }>
+  <BrowserRouter basename="/trivia">
+    <Provider store={store}>
       <App />
     </Provider>
   </BrowserRouter>,
